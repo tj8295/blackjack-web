@@ -1,0 +1,8 @@
+<h3>Place Your Bet</h3>
+<form action="/place_bet" method="post">
+  <input type="text" name="bet_amount" />
+  <br />
+  <input type="submit" value="Make a bet" class="btn" />
+</form>
+
+<p>You have $<%= session[:purse].to_i %> in chips</p>

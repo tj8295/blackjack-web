@@ -1,0 +1,24 @@
+li {
+  display: inline-block;
+}
+
+.from-inline {
+  display: inline-block;
+}
+
+#hit_form {
+  float: left;
+  margin-right: 10px;
+}
+
+#stay_form {
+  float: left;
+}
+
+.card_image {
+  margin: 0px 5px 5px 0px;
+}
+
+/*body {
+  background-color: green;
+}*/

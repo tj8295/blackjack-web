@@ -1,0 +1,17 @@
+1.  Player name
+2.  Player bet amount  get ‘/place_bet’
+3.  Player sets amount post ‘/place_bet’
+4.  Bet is saved in session and checked for validation
+5.  Validation:
+  Blank
+  If higher than 500
+  If lower than 0
+  If decimal
+6:  Redirect to /game
+7:  If bust subtract from purse get /game
+
+At the end of the game as part of the comparison update session[:purse]
+8: Redirect to get '/place_bet'
+
+
+handle only numbers for bet amount and alphanumeric text for name
